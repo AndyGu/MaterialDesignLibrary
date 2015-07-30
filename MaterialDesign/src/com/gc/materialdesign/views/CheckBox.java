@@ -58,7 +58,7 @@ public class CheckBox extends CustomView {
 		}
 
 		final boolean check = attrs.getAttributeBooleanValue(MATERIALDESIGNXML,
-				"check", false);
+				"mycheck", false);
 			post(new Runnable() {
 
 				@Override
